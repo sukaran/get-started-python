@@ -1,5 +1,8 @@
 ---
 applications:
- - name: GetStartedPython
-   random-route: true
+ - name: Mojo
+   buildpack: python_buildpack
+   random-route: false
+   instances: 1
    memory: 128M
+   disk_quote: 1024M
